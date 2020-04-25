@@ -16,7 +16,7 @@ Table of Contents:
 
 Features: Per Project 0's requirements, I added the following functionality:
   1) The website contains five .html pages.
-  2) Each page hyperlinks to one other and is formatted as an unordered list.
+  2) Each page contains an unordered list of hyperlinks that connect to one other.
   3) The index page lists images of corportate logos.
   4) The index page ("Portfolio Page") uses bootstrap as stylesheet and formats the company logos using two Bootstrap columns for layout purposes within Bootstrap’s grid model.
   5) The index page also makes use of the alert Bootstrap 4 component when stating the disclaimer, "For education purposes only". Consequently, this page also employs @media "print-only" class to only print "Print for education purposes only" when the page is printed via printer. I realize this is a reprint of the Bootstrap 4 alert, "For education purposes only," but I'm doing this to fulfill the requirement of Project 0--not for asthetics. 
