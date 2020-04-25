@@ -1,0 +1,56 @@
+body {
+	background: "rug.jpg";
+}
+.mytable, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+#Summary_title {
+	color: blue;
+	font-family: sans-serif;
+}
+
+.links {
+		font-family: sans-serif;
+}
+@media screen{
+	.print-only {
+		display: none;
+	}
+}
+@media (min_width:500px) {
+	th,td {
+		font-size:1.5rem;
+		line-height:1.5;
+	}
+}
+@media (max_width:499px) {
+	th,td {
+		font-size:1.25rem;
+	}
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container > div {
+	background-color: white;
+	font-size: 20px;
+	color: blue;
+	margin: 20px;
+}
+
+.grid {
+	background-color: white;
+	display: grid;
+	padding: 2px;
+	grid-column-gap: 20px;
+	grid-row-gap: 5px;
+	grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+	background-color: white;
+	font-size: 20px;
+}
