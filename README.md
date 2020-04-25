@@ -13,11 +13,12 @@ Table of Contents:
   5) Analysis page provides analyst estimates and other details
 
 Features: Per Project 0's requirements, I added the following functionality:
-  1) The website contains five  .html pages
+  1) The website contains five .html pages.
   2) Each page hyperlinks to one other and is formatted as an unordered list.
   3) The index page lists images of corportate logos.
   4) The index page ("Portfolio Page") uses bootstrap as stylesheet and formats the company logos using two Bootstrap columns for layout purposes within Bootstrap’s grid model.
-  5) 
+  5) The index page also makes use of the alert Bootstrap 4 component when stating the disclaimer, "For education purposes only". Consequently, this page also employs @media "print-only" class to only print "Print for education purposes only" when the page is printed via printer.
+  6) 
 Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component.
