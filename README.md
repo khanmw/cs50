@@ -4,6 +4,7 @@ Harvard CS50 Web and Python Programming Course
 Project name: Project 0
 
 Description: I created a HTML/CSS site that drills down into financial and corporate details of Microsoft.
+
 Credit: I used data from Yahoo Finance and logos from Google search results.
 
 Table of Contents: 
