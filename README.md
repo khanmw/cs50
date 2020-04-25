@@ -18,7 +18,7 @@ Features: Per Project 0's requirements, I added the following functionality:
   1) The website contains five .html pages.
   2) Each page contains an unordered list of hyperlinks that connect to one other.
   3) The index page lists images of corportate logos.
-  4) The index page ("Portfolio Page") uses bootstrap as stylesheet and formats the company logos using two Bootstrap columns for layout purposes within Bootstrap’s grid model.
+  4) The index page ("Portfolio Page") uses bootstrap as a stylesheet and formats the company logos using two Bootstrap columns for layout purposes within Bootstrap’s grid model.
   5) The index page also makes use of the alert Bootstrap 4 component when stating the disclaimer, "For education purposes only". Consequently, this page also employs @media "print-only" class to only print "Print for education purposes only" when the page is printed via printer. I realize this is a reprint of the Bootstrap 4 alert, "For education purposes only," but I'm doing this to fulfill the requirement of Project 0--not for asthetics. 
   6) The index page also references style.css. Style.css employs several properties. For example, the ".mytable" class defines properties for border, border-collapse, font-family, font-size, while the "#Summary_title" ID sets properties such as font color and font-family.  
   7) Style.css also invokes @media to expanding/contracting screensize (min_width: 500px and max_width: 499px) by adjusting the font-size property. The index page also declared meta name ="viewport" and content="width=device-width, initial-scale=1.0".
